@@ -1,0 +1,79 @@
+Q1
+<script>
+
+function capitalizeFirstLetter(inputString) {
+  const words = inputString.split(" ");
+  const storeWords = [];
+
+  for (const word of words) {
+    if (word.length === 0) {
+        storeWords.push(word)
+    } else {
+      const capLetter = word.charAt(0).toUpperCase();
+      const restLetters = word.slice(1);
+      storeWords.push(capLetter + restLetters);
+    }
+  }
+
+  return storeWords.join(' ');
+}
+
+    const test = capitalizeFirstLetter("hello there");
+    console.log(test);
+</script>
+
+Q2
+
+<script>
+
+    function max(firstNum, secondNum, thirdNum) {
+      if (firstNum >= secondNum && firstNum >= thirdNum) {
+        return firstNum;
+      } else if (secondNum >= firstNum && secondNum >= thirdNum) {
+        return secondNum;
+      } else {
+        return thirdNum;
+      }
+    }
+    
+    console.log(max(5,-2,30));
+    
+</script>
+
+Q3
+
+<script>
+
+    function max(firstNum, secondNum, thirdNum) {
+      if (firstNum >= secondNum && firstNum >= thirdNum) {
+        return firstNum;
+      } else if (secondNum >= firstNum && secondNum >= thirdNum) {
+        return secondNum;
+      } else {
+        return thirdNum;
+      }
+    }
+    
+    console.log(max(5,-2,30));
+    
+    </script>
+
+Q4
+
+<script>
+
+    function max(firstNum, secondNum, thirdNum) {
+      if (firstNum >= secondNum && firstNum >= thirdNum) {
+        return firstNum;
+      } else if (secondNum >= firstNum && secondNum >= thirdNum) {
+        return secondNum;
+      } else {
+        return thirdNum;
+      }
+    }
+    
+    console.log(max(5,-2,30));
+    
+</script>
+    
+    
